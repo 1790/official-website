@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+// import materialize
+@import "materialize";
+@import "icon";
+@import "plugin";
+
+// Custom style
+//@import "style";
+
+body {
+  background: #fcfcfc url("../assets/images/bg.png") top center repeat;
+}
+
+nav {
+  background: transparent;
+  border-bottom: none;
+  box-shadow: none;
+  position: absolute;
+  width:100%;
+  z-index: 999;
+  text-shadow: 3px 3px 15px #333;
+}
+
+.section-space {
+  width: 100%;
+  height: 20px;
+}
+
+.front {
+  position: relative;
+  .section-top {
+    height: 700px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .section-bg {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    .bg-box {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .mask{
+      position: absolute;
+      width: 110%;
+      height: 100vh;
+      margin-left:-5%;
+      margin-top:-10vh;
+      background: rgba(168, 168, 168, 0.51);
+    }
+    .bg-content {
+      width: 110%;
+      height: 100vh;
+      margin-left:-5%;
+      margin-top:-10vh;
+      background: url("../assets/images/top-bg.jpg") top center no-repeat;
+      background-size: cover;
+    }
+  }
+  .section-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .contact-box{
+    .btn{
+      font-size: 20px;
+    }
+  }
+  .slogan {
+    padding-top: 270px;
+    h1 {
+      font-size: 32px;
+      margin: 0;
+      color: #fff;
+      letter-spacing: 3px;
+    }
+    .content {
+      background: rgba(0, 0, 0, 0.45);
+      padding: 20px;
+      display: inline-block;
+    }
+  }
+  .title {
+    margin-bottom: 30px;
+  }
+  h2 {
+    font-size: 32px;
+    margin: 20px;
+  }
+  .section-intro {
+    padding: 50px 0;
+    .icon-box {
+      margin: 20px 0;
+      span {
+        font-size: 50px;
+      }
+    }
+    .col {
+      p {
+        max-width: 200px;
+        margin: 0 auto;
+      }
+    }
+  }
+  .section-technology {
+    background: #f8f8f8;
+    padding: 50px 0;
+    .col {
+      margin: 30px 0;
+      color: #999;
+      &:hover {
+        color: #666;
+      }
+    }
+    span {
+      font-size: 32px;
+    }
+  }
+}
+
+.footer {
+  background: #222;
+  color: #fff;
+  .content {
+    padding-top: 20px;
+    min-height: 200px;
+    .title{
+      border-bottom: 1px solid #999;
+      line-height: 50px;
+      margin-bottom: 15px;
+    }
+  }
+  .header-lines-decoration {
+    width: 100%;
+    position: relative;
+    top: 0;
+    height: 6px;
+    background: #f8f8f8;
+  }
+  .header-lines-decoration span {
+    height: 100%;
+    width: 14%;
+    float: left;
+  }
+  .header-lines-decoration span:first-child, .header-lines-decoration span:last-child {
+    width: 15%;
+  }
+  .logo-slogan{
+    color: #999;
+    p{
+      font-size: 14px;
+    }
+  }
+  .logo {
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom:10px;
+  }
+  ul {
+    line-height: 32px;
+  }
+  a {
+    color: #dbdbdb;
+    text-decoration: none;
+  }
+  .qrcode {
+    img {
+      max-width: 100px;
+    }
+  }
+  .footer-info {
+    background: #1a1a1a;
+    color: #dbdbdb;
+    line-height: 45px;
+    p {
+      margin: 0;
+    }
+    span {
+      margin: 0 5px;
+      display: inline-block;
+    }
+  }
+}
+
