@@ -55,6 +55,7 @@ nav {
       position: absolute;
       width: 110%;
       height: 100vh;
+      min-height:1000px;
       margin-left:-5%;
       margin-top:-10vh;
       background: rgba(168, 168, 168, 0.51);
@@ -62,6 +63,7 @@ nav {
     .bg-content {
       width: 110%;
       height: 100vh;
+      min-height:840px;
       margin-left:-5%;
       margin-top:-10vh;
       background: url("../assets/images/top-bg.jpg") top center no-repeat;
