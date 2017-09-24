@@ -1,5 +1,5 @@
 <template>
-  <nav>
+  <nav class="nav-transparent">
     <div class="nav-wrapper">
       <div class="container">
         <router-link to="/" class="brand-logo">优燃+</router-link>
@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: 'PageNav',
+  name: 'PageNavTransparent',
   data () {
     return {
       prdId: parseInt(Math.random())

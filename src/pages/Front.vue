@@ -51,25 +51,98 @@
         </div>
       </div>
     </div>
-    <div class="section-technology">
+    <div class="section-intro section-service section-with-bg" id="service">
+      <div class="container center-align">
+        <div class="title">
+          <h2>SERVICE服务</h2>
+          <p>针对各行业业务特性，打造个性化行业解决方案，为用户提供一站式的产品与服务</p>
+        </div>
+        <div class="row">
+          <div class="col s3">
+            <div class="icon-box">
+              <span class="ran-readthedocs"></span>
+            </div>
+            <div class="item-title">原型策划</div>
+            <p>专业的产品经理和您对接需求实现需求文档化</p>
+          </div>
+          <div class="col s3">
+            <div class="icon-box">
+              <span class="ran-insert-template"></span>
+            </div>
+            <div class="item-title">视觉设计</div>
+            <p>经验丰富的设计师为您做产品效果设计</p>
+          </div>
+          <div class="col s3">
+            <div class="icon-box">
+              <span class="ran-embed2"></span>
+            </div>
+            <div class="item-title">研发迭代</div>
+            <p>优秀的研发团队为您定制研发高可用的产品</p>
+          </div>
+          <div class="col s3">
+            <div class="icon-box">
+              <span class="ran-make-group"></span>
+            </div>
+            <div class="item-title">推广运营</div>
+            <p>海量的营销资源为您的产品定向推广</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-intro section-strength">
+      <div class="container center-align">
+        <div class="title">
+          <h2>STRENGTHS优势</h2>
+          <p>专注于做高性价比的服务 努力把每一个合作伙伴服务的更好</p>
+        </div>
+        <div class="row">
+          <div class="col s4">
+            <div class="icon-box">
+              <span class="ran-stats-dots"></span>
+            </div>
+            <div class="item-title">营销优势</div>
+            <p>海量的营销资源，了解互联网用户习惯</p>
+          </div>
+          <div class="col s4">
+            <div class="icon-box">
+              <span class="ran-smile"></span>
+            </div>
+            <div class="item-title">行业优势</div>
+            <p>超多案例，有各行业中大型项目经验</p>
+          </div>
+          <div class="col s4">
+            <div class="icon-box">
+              <span class="ran-stack"></span>
+            </div>
+            <div class="item-title">技能优势</div>
+            <p>无可挑剔的创意设计，较为成熟的敏捷开发</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-technology section-with-bg">
       <div class="container center-align">
         <div class="title">
           <h2>我们的技术栈</h2>
-          <p>在保证服务质量的同时，探索新技术</p>
-          <div class="center-align">各种牛逼的技术 我编不下去了</div>
+          <div>以技术为驱动，提供更为优质的服务</div>
+          <p>在保证服务质量的同时，探索新技术。用前沿的技术，提供更为便捷的服务</p>
         </div>
         <div class="row">
+          <div class="col s3">
+            <span class="ran-javascript"></span>
+            <p>javascript</p>
+          </div>
           <div class="col s3">
             <span class="ran-sass"></span>
             <p>sass</p>
           </div>
           <div class="col s3">
-            <span class="ran-react"></span>
-            <p>react</p>
-          </div>
-          <div class="col s3">
             <span class="ran-vuejs"></span>
             <p>vuejs</p>
+          </div>
+          <div class="col s3">
+            <span class="ran-react"></span>
+            <p>react</p>
           </div>
           <div class="col s3">
             <span class="ran-angular"></span>
@@ -103,10 +176,6 @@
             <span class="ran-gulp"></span>
             <p>gulp</p>
           </div>
-          <div class="col s3">
-            <span class="ran-javascript"></span>
-            <p>javascript</p>
-          </div>
         </div>
       </div>
     </div>
@@ -114,28 +183,7 @@
       <div class="container center-align">
         <div class="title">
           <h2>我们的愿景</h2>
-          <p>希望有一天赚大钱</p>
-          <p>继续吹</p>
-        </div>
-        <div class="row">
-          <div class="col s4">
-            <div class="icon-box">
-              <span class="ran-aim"></span>
-            </div>
-            <p>从客户角度出发 深度了解客户需求 探讨应用场景</p>
-          </div>
-          <div class="col s4">
-            <div class="icon-box">
-              <span class="ran-microsoftword"></span>
-            </div>
-            <p>从需求出发 剖析客户痛点</p>
-          </div>
-          <div class="col s4">
-            <div class="icon-box">
-              <span class="ran-redux"></span>
-            </div>
-            <p>针对客户痛点 选用相对的技术和解决方案</p>
-          </div>
+          <p>探索新奇 创造无限可能</p>
         </div>
       </div>
     </div>
@@ -165,8 +213,8 @@
           init(el,{
             strings: [
               '一个很潮的团队，做着一些很潮的事情',
-              '一个想赚大钱的团队',
-              '一个词穷到只会说牛逼，来夸奖自己的团队',
+              '一个想有梦想的团队',
+              '一个以解决客户痛点为乐趣的团队',
             ],
             backDelay: 2000,
             loop: true,
