@@ -5,6 +5,9 @@
         <router-link to="/" class="brand-logo">优燃佳</router-link>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li>
+            <router-link to="/">首页</router-link>
+          </li>
+          <li>
             <router-link to="/about">关于我们</router-link>
           </li>
           <li>
@@ -14,7 +17,7 @@
             <router-link to="/team">我们团队</router-link>
           </li>
           <li>
-            <router-link to="/job">招贤纳士</router-link>
+            <a class="btn blue no-boxshow">预约我们</a>
           </li>
         </ul>
       </div>

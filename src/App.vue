@@ -1,4 +1,3 @@
-
 <template>
   <div id="app" style="height: 100%;">
     <div class="page-content">
