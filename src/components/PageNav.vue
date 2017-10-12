@@ -2,12 +2,23 @@
   <nav>
     <div class="nav-wrapper">
       <div class="container">
-        <router-link to="/" class="brand-logo">优燃+</router-link>
+        <router-link to="/" class="brand-logo">优燃佳</router-link>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><router-link to="/about">关于我们</router-link></li>
-          <li><router-link to="/service">产品服务</router-link></li>
-          <li><router-link to="/team">我们团队</router-link></li>
-          <li><router-link to="/job">招贤纳士</router-link></li>
+          <li>
+            <router-link to="/">首页</router-link>
+          </li>
+          <li>
+            <router-link to="/about">关于我们</router-link>
+          </li>
+          <li>
+            <router-link to="/service">产品服务</router-link>
+          </li>
+          <li>
+            <router-link to="/team">我们团队</router-link>
+          </li>
+          <li>
+            <a class="btn blue no-boxshow">预约我们</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -17,7 +28,7 @@
 <script>
 export default {
   name: 'PageNav',
-  data () {
+  data() {
     return {
       prdId: parseInt(Math.random())
     }
